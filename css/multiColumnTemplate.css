@@ -57,12 +57,16 @@ section .right_article p {
     margin-left: 45px;
 }
 .row .columns p {
-	padding-left: 10%;
-	padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #DFDFDF;
 }
 .container .columns h4 {
 	text-align: center;
 	color: #01B2D1;
+}
+.row .columns h4 {
+    color: #FFFFFF;
 }
 .header {
     width: 100%;
@@ -146,13 +150,13 @@ ul .list-manage p {
 	text-transform: uppercase;
 }
 .container .left_article p {
-	padding-left: 5%;
-	padding-right: 5%;
-	text-align: justify;
-	line-height: 24px;
-	margin-top: 30px;
-	margin-bottom: 15px;
-	color: #B3B3B3;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #6E6E6E;
 }
 .right_article {
     width: 40%;
@@ -192,7 +196,7 @@ ul .list-manage p {
 	cursor: pointer;
 }
 .footer {
-	background-color: #717070;
+    background-color: #717070;
 }
 .title {
 	font-weight: bold;
