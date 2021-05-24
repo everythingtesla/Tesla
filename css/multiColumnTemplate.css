@@ -1,14 +1,23 @@
 @charset "UTF-8";
 .container {
-	background-color: #FFFFFF;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	border-bottom-width: 0px;
-	padding-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
+    background-color: #FFFFFF;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    padding-top: 75px;
+}
+section .right_article p {
+    font-family: Source Sans Pro;
+    color: #717070;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -15px;
+}
+.columns .thumbnail_align .thumbnail_align {
+    margin-top: 21px;
+    margin-bottom: 4px;
 }
 .row {
 	width: 100%;
@@ -31,20 +40,21 @@
 	margin-top: 0px;
 }
 .columns {
-	width: 25%;
-	float: left;
-	font-family: "Source Sans Pro";
-	color: #A5A5A5;
-	line-height: 24px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: justify;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
+    width: 20%;
+    float: left;
+    font-family: "Source Sans Pro";
+    color: #A5A5A5;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    background-color: #717070;
+    margin-left: 45px;
 }
 .row .columns p {
 	padding-left: 10%;
@@ -68,6 +78,22 @@
     -ms-flex-pack: start;
     justify-content: flex-start;
     padding-bottom: 0px;
+    font-family: Source Sans Pro;
+}
+ul .list-manage p {
+    font-family: Source Sans Pro;
+}
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-xl-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 .container .header ul {
     margin-top: 0%;
@@ -193,6 +219,7 @@
     flex-grow: 1;
     -ms-flex-align: center;
     align-items: center;
+    font-family: Source Sans Pro;
 }
 .left_half {
 	background-color: #52BAD5;
@@ -232,8 +259,8 @@ body {
 .logo-image {
     background-image: url(../images/ET_WoW.png);
 }
-ul .list-manage li {
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+.list-manage   {
+    font-family: Source Sans Pro;
 }
 
 @media (max-width: 320px) {
@@ -242,6 +269,9 @@ ul .list-manage li {
     margin-top: 22px;
     margin-left: 0px;
     width: 100%;
+}
+.navbar-collapse ul .list-manage {
+    font-family: Source Sans Pro;
 }
 .container .header ul {
     margin-top: 0px;
@@ -429,6 +459,7 @@ ul .list-manage li {
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
+    font-family: Source Sans Pro;
 }
 .fixed-top {
     position: fixed;
@@ -436,12 +467,14 @@ ul .list-manage li {
     right: 0;
     left: 0;
     z-index: 1030;
+    font-family: Source Sans Pro;
 }
 .navbar-collapse {
+    font-family: Source Sans Pro;
 }
 .list-manage {
     padding-top: 20px;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Source Sans Pro;
     font-style: normal;
     font-variant: normal;
 }
