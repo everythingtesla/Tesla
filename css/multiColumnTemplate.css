@@ -110,7 +110,7 @@ ul .list-manage p {
     padding-left: 0px;
     width: 100%;
 }
-.header ul li {
+.header ul li{
     list-style: none;
     float: left;
     margin-right: auto;
@@ -126,7 +126,7 @@ ul .list-manage p {
 }
 .container header #menu a img {
 }
-.header ul li:hover {
+.header ul li a:hover {
 	color: #717070;
 	cursor: pointer;
 }
@@ -265,6 +265,21 @@ body {
 }
 .list-manage   {
     font-family: Source Sans Pro;
+}
+.nav-link {
+    float: left;
+    margin-top: 0px;
+    margin-left: 0%;
+    width: 100%;
+    list-style: none;
+    margin-right: auto;
+    font-family: "Source Sans Pro";
+    font-weight: normal;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: all 0.3s linear;
+    text-decoration: none;
 }
 
 @media (max-width: 320px) {
