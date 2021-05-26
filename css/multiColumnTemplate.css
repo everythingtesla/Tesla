@@ -8,13 +8,22 @@
     padding-bottom: 0px;
     padding-top: 75px;
 }
-section .right_article p {
+section .right_picture p {
     font-family: Source Sans Pro;
     color: #717070;
     text-align: center;
     padding-top: 0px;
     margin-top: -15px;
 }
+
+section .left_picture p {
+    font-family: Source Sans Pro;
+    color: #717070;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -15px;
+}
+
 .columns .thumbnail_align .thumbnail_align {
     margin-top: 21px;
     margin-bottom: 4px;
@@ -138,10 +147,26 @@ ul .list-manage p {
 	color: #343434;
 	padding-bottom: 15px;
 }
+.right_article {
+	background-color: #FFFFFF;
+	width: 60%;
+	float: right;
+	font-family: "Source Sans Pro";
+	color: #343434;
+	padding-bottom: 15px;
+}
 .noDisplay {
 	display: none;
 }
 .container .left_article h3 {
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 5%;
+	color: #717070;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.container .right_article h3 {
 	padding-left: 5%;
 	padding-right: 5%;
 	margin-top: 5%;
@@ -158,12 +183,31 @@ ul .list-manage p {
     margin-bottom: 15px;
     color: #6E6E6E;
 }
-.right_article {
+.container .right_article p {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #6E6E6E;
+}
+.right_picture {
     width: 40%;
     float: left;
     background-color: #F6F6F6;
 }
-.container .right_article ul {
+
+.left_picture {
+    width: 40%;
+    float: left;
+    background-color: #F6F6F6;
+}
+
+.right_article {
+    width: 60%;
+}
+.container .right_picture ul {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -173,7 +217,7 @@ ul .list-manage p {
 	padding-bottom: 0px;
 	padding-left: 0px;
 }
-.right_article ul li {
+.right_picture ul li {
 	font-family: "Source Sans Pro";
 	list-style: none;
 	text-align: center;
@@ -191,12 +235,46 @@ ul .list-manage p {
 	transition: all 0.3s linear;
 	border-left: 5px solid #717070;
 }
-.right_article ul li:hover {
+.right_picture ul li:hover {
 	background-color: #717070;
 	cursor: pointer;
 }
+.container .left_picture ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.left_picture ul li {
+	font-family: "Source Sans Pro";
+	list-style: none;
+	text-align: center;
+	background-color: #B3B3B3;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 0px;
+	transition: all 0.3s linear;
+	border-left: 5px solid #717070;
+}
+.left_picture ul li:hover {
+	background-color: #717070;
+	cursor: pointer;
+}
+
 .footer {
-    background-color: #717070;
+    width: 100%;
+	background-color: #717070;
 }
 .title {
 	font-weight: bold;
@@ -273,12 +351,15 @@ body {
     width: 100%;
     list-style: none;
     margin-right: auto;
-    font-family: "Source Sans Pro";
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     color: #FFFFFF;
     letter-spacing: 1px;
     text-align: center;
     transition: all 0.3s linear;
+    text-decoration: none;
+}
+a   {
     text-decoration: none;
 }
 
@@ -309,10 +390,14 @@ body {
 	width: 100%;
 	height: auto;
 }
-.right_article {
+.right_picture {
 	width: 100%;
 	height: auto;
 }
+.left_picture {
+	width: 100%;
+	height: auto;
+}	
 .placeholder {
 	width: 100%;
 	margin-top: 22PX;
@@ -356,6 +441,10 @@ body {
 .container .left_article h3 {
 	margin-top: 30px;
 }
+.container .right_article h3 {
+	margin-top: 30px;
+}
+	
 .social .social_icon img {
 	width: 80%;
 }
@@ -369,8 +458,18 @@ body {
 .right_article {
 	width: 100%;
 	height: auto;
+}
+	
+.right_picture {
+	width: 100%;
+	height: auto;
 	padding-bottom: 25px;
 }
+.left_picture {
+	width: 100%;
+	height: auto;
+	padding-bottom: 25px;
+}	
 .placeholder {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -412,10 +511,19 @@ body {
 .left_article {
 	height: auto;
 }
+
 .right_article {
+	height: auto;
+}	
+	
+.right_picture {
 	height: auto;
 	padding-bottom: 27px;
 }
+.left_picture {
+	height: auto;
+	padding-bottom: 27px;
+}	
 .placeholder {
 	width: 100%;
 	margin-left: 0px;
