@@ -8,8 +8,17 @@
     padding-bottom: 0px;
     padding-top: 75px;
 }
+.footercontainer  {
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    padding-top: 75px;
+}
 section .right_picture p {
-    font-family: Source Sans Pro;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     color: #717070;
     text-align: center;
     padding-top: 0px;
@@ -17,7 +26,7 @@ section .right_picture p {
 }
 
 section .left_picture p {
-    font-family: Source Sans Pro;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     color: #717070;
     text-align: center;
     padding-top: 0px;
@@ -29,16 +38,17 @@ section .left_picture p {
     margin-bottom: 4px;
 }
 .row {
-	width: 100%;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	display: inline-block
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: inline-block;
+    background-color: #717070;
 }
 .row.blockDisplay {
 	display: block;
@@ -64,11 +74,13 @@ section .left_picture p {
     margin-right: 0px;
     background-color: #717070;
     margin-left: 45px;
+    border: thin solid #000000;
 }
 .row .columns p {
     padding-left: 10%;
     padding-right: 10%;
     color: #DFDFDF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .container .columns h4 {
 	text-align: center;
@@ -76,6 +88,7 @@ section .left_picture p {
 }
 .row .columns h4 {
     color: #FFFFFF;
+    text-align: center;
 }
 .header {
     width: 100%;
@@ -100,8 +113,8 @@ ul .list-manage p {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 .col-xl-12 {
     -ms-flex: 0 0 100%;
@@ -163,16 +176,14 @@ ul .list-manage p {
 	padding-right: 5%;
 	margin-top: 5%;
 	color: #717070;
-	font-weight: bold;
-	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 .container .right_article h3 {
-	padding-left: 5%;
-	padding-right: 5%;
-	margin-top: 5%;
-	color: #717070;
-	font-weight: bold;
-	text-transform: uppercase;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    color: #717070;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 .container .left_article p {
     padding-left: 5%;
@@ -182,6 +193,7 @@ ul .list-manage p {
     margin-top: 30px;
     margin-bottom: 15px;
     color: #6E6E6E;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .container .right_article p {
     padding-left: 5%;
@@ -191,6 +203,7 @@ ul .list-manage p {
     margin-top: 30px;
     margin-bottom: 15px;
     color: #6E6E6E;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .right_picture {
     width: 40%;
@@ -329,8 +342,8 @@ ul .list-manage p {
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 2px;
-    border-top-width: 2px;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-top: thin solid #000000;
 }
 body {
 	margin-top: 0px;
@@ -358,6 +371,13 @@ body {
     text-align: center;
     transition: all 0.3s linear;
     text-decoration: none;
+}
+.columns a h4:hover {
+    color: #B3B3B3;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.columns a h4 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 a   {
     text-decoration: none;
@@ -485,15 +505,17 @@ a   {
 	max-height: 100%;
 }
 .columns {
-	width: 100%;
-	margin-top: 6px;
-	margin-right: 0px;
-	margin-bottom: 6px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+    width: 100%;
+    margin-top: 6px;
+    margin-right: 0px;
+    margin-bottom: 6px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-width: thin;
+    border-color: #000000;
 }
 .columns p {
 	padding-left: 14px;
@@ -532,12 +554,14 @@ a   {
 	padding-right: 0px;
 }
 .columns {
-	width: 50%;
-	float: left;
-	padding-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
+    width: 50%;
+    float: left;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-width: thin;
+    border-color: #000000;
 }
 .container .columns p {
 	padding-left: 25px;
